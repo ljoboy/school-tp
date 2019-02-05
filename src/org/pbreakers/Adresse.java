@@ -14,7 +14,9 @@ public class Adresse extends Coordonnee {
             this.setQuartier(quart);
             this.setCommune(com);
             this.setVille(vil);
-        }catch(ValeurErroneeException e){}
+        }catch(ValeurErroneeException e){
+            System.out.println("Adresse Inavalide : ");
+        }
 
     }
 
