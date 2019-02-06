@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.pbreakers</OriginalElement>
+  <nodes>
+    <node x="71.70833333333334" y="167.5">org.pbreakers.Electronique</node>
+    <node x="224.0" y="0.0">org.pbreakers.Coordonnee</node>
+    <node x="0.0" y="476.0">org.pbreakers.Personne</node>
+    <node x="207.0" y="476.0">org.pbreakers.Carnet</node>
+    <node x="372.70833333333337" y="79.0">org.pbreakers.Adresse</node>
+    <node x="0.0" y="346.0">org.pbreakers.PageWeb</node>
+    <node x="0.0" y="682.0">org.pbreakers.Main</node>
+    <node x="206.70833333333331" y="145.0">org.pbreakers.Telephone</node>
+    <node x="453.0" y="476.0">org.pbreakers.ValeurErroneeException</node>
+    <node x="138.0" y="335.0">org.pbreakers.Email</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.pbreakers.Adresse" target="org.pbreakers.Coordonnee">
+      <point x="0.0" y="-103.0" />
+      <point x="445.70833333333337" y="54.0" />
+      <point x="319.0" y="54.0" />
+      <point x="38.0" y="14.5" />
+    </edge>
+    <edge source="org.pbreakers.Telephone" target="org.pbreakers.Coordonnee">
+      <point x="0.0" y="-37.0" />
+      <point x="279.7083333333333" y="54.0" />
+      <point x="281.0" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.pbreakers.Electronique" target="org.pbreakers.Coordonnee">
+      <point x="0.0" y="-14.5" />
+      <point x="129.20833333333334" y="54.0" />
+      <point x="243.0" y="54.0" />
+      <point x="-38.0" y="14.5" />
+    </edge>
+    <edge source="org.pbreakers.PageWeb" target="org.pbreakers.Electronique">
+      <point x="0.0" y="-37.0" />
+      <point x="59.0" y="310.0" />
+      <point x="100.45833333333334" y="310.0" />
+      <point x="-28.75" y="14.5" />
+    </edge>
+    <edge source="org.pbreakers.Email" target="org.pbreakers.Electronique">
+      <point x="0.0" y="-48.0" />
+      <point x="202.0" y="310.0" />
+      <point x="157.95833333333334" y="310.0" />
+      <point x="28.75" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9233926128590971" x="315.0" y="355.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
