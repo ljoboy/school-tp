@@ -7,7 +7,7 @@ public class Telephone extends Coordonnee {
         try{
             this.setNumero(num);
         }catch(ValeurErroneeException e){
-            System.out.println("Numero de telephone Incorrecte : ");
+            System.out.println(".Numero de telephone Incorrecte : ");
         }
 
     }
